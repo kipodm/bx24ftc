@@ -43,7 +43,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
-cp changed_bitrix24.py venv/lib/python3.6/site-packages/bitrix24/bitrix24.py
+cp changed_bitrix24.py_new venv/lib/python3.6/site-packages/bitrix24/bitrix24.py
 ```
 
 Последняя команда заменяет файл в библиотеке bitrix24. Это сделано потому, что в
